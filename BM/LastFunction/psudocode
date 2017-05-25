@@ -1,0 +1,12 @@
+calculateLast(char array[]needle):
+	integer array[0...127]alphabet	<---	-1
+	for all index from 0 to length of needle:
+		integer position   <---  toAsciiValue(needle[index])
+		alphabet[position] <---  index
+	end for
+
+last(char c):
+	integer position <--- toAsciiValue(c)
+	return alphabet[position]
+
+
